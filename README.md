@@ -37,12 +37,8 @@ Un fichier repo_list.lst est fourni dans le répertoire *sources* de ce reposito
 
 ```
 ...
-infraAsCode/yaml_prod
-INVICTUS/ad-common
-KATANA/katana
-KATE/ansible-playbooks
-LABEL-OPS/ops_quality
-OPP/aws-cloud-automations
+repo1/
+repo2/
 ...
 ```
 
@@ -50,4 +46,4 @@ OPP/aws-cloud-automations
 
 ## En cas de problème avec le script ou de demande d'évolution
 
-Contactez Olivier Leteneur ou Julien Delaborde
+Contactez Olivier Leteneur
