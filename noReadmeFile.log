@@ -1,0 +1,11 @@
+Test_Scrapping
+aws-terraform-ew
+ew-csv-s3-to-dynamo-lambda
+ew-payment-notification-fnc
+get-pip
+initializeRepositories.sh
+readme_management
+refreshGIT.sh
+refreshGIT_logs
+repositories.lst
+scrapy
