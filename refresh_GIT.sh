@@ -46,12 +46,14 @@ workdir="workspace"
 user=`whoami`
 timeRightNow=`date +%Y%m%d`
 loggerFile="refreshGIT_logs/_refreshGIT_Log_$timeRightNow.log"
-> $loggerFile
+mkdir -p "$(dirname "$loggerFile")"
+> "$loggerFile"
 
 dirArray=("refreshGIT_logs" "sources")
 filesArray=("$source" "$loggerFile")
 
 echo -e "\n Verify the directories :" && verifyDirectory
+
 echo -e "\n Verify the files :" && verifyFile
 echo -e "\n"
 echo -e "\n #A - OKAY for directories and files\n" >>$loggerFile
